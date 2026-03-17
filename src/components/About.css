@@ -1,0 +1,169 @@
+/* ============================================================
+   About.css
+   ============================================================ */
+
+.about {
+  background: var(--white);
+}
+
+.about__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3xl);
+  align-items: center;
+}
+
+/* ── Visuals ──────────────────────────────────────────────── */
+.about__visuals {
+  position: relative;
+  height: 520px;
+}
+
+.about__img-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 85%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.about__img-accent {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 48%;
+  height: 50%;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 4px solid var(--white);
+}
+
+.about__chip {
+  position: absolute;
+  top: 60%;
+  left: -24px;
+  background: var(--navy);
+  color: var(--white);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: var(--shadow-lg);
+  z-index: 2;
+}
+
+.about__chip-icon {
+  font-size: 1.4rem;
+}
+
+.about__chip-title {
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.about__chip-sub {
+  font-size: 0.7rem;
+  color: var(--gray-400);
+  white-space: nowrap;
+}
+
+/* ── Content ──────────────────────────────────────────────── */
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.about__intro {
+  color: var(--gray-600);
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-top: 0.75rem;
+}
+
+/* ── Pillars ──────────────────────────────────────────────── */
+.about__pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about__pillar {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: var(--off-white);
+  border: 1px solid var(--gray-100);
+  border-radius: var(--radius-md);
+  transition: box-shadow var(--transition-base), border-color var(--transition-base);
+}
+
+.about__pillar:hover {
+  box-shadow: var(--shadow-md);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.about__pillar-icon {
+  font-size: 1.5rem;
+  width: 48px;
+  height: 48px;
+  background: var(--green-subtle);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.about__pillar-title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.3rem;
+}
+
+.about__pillar-text {
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  line-height: 1.65;
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .about__chip {
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .about__visuals {
+    height: 280px;
+  }
+
+  .about__chip {
+    display: none;
+  }
+
+  .section__title {
+    text-align: center !important;
+  }
+
+  .section__eyebrow {
+    display: block;
+    text-align: center;
+  }
+}
