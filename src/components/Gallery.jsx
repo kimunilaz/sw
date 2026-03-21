@@ -13,7 +13,7 @@ const MEDIA = [
   {
     id: 1,
     type: 'image',
-    src: 'https://images.unsplash.com/photo-1567521464027-f127ff144326?w=600&q=80',
+    src: 'https://drive.google.com/uc?export=view&id=1NFBw68rMs7VhTiwAtsVRlpOlaHWuL2-u',
     alt: 'SmarVe machine in modern office lobby',
     span: 'wide',
   },
