@@ -36,7 +36,7 @@ export default function About() {
             */}
             <div className="about__img-main">
               <img
-                src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80"
+                src="/images/back.jpg"
                 alt="SmarVe smart vending installation"
                 className="placeholder-img"
                 loading="lazy"
@@ -44,7 +44,7 @@ export default function About() {
             </div>
             <div className="about__img-accent">
               <img
-                src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=300&q=80"
+                src="/images/happycustomers2.jpeg"
                 alt="SmarVe technology detail"
                 className="placeholder-img"
                 loading="lazy"
@@ -64,14 +64,14 @@ export default function About() {
           <div className="about__content">
             <div className="reveal">
               <span className="section__eyebrow">Who We Are</span>
-              <h2 className="section__title" style={{ textAlign: 'left', marginBottom: '1rem' }}>
-                Redefining the Future<br />of Automated Retail
+              <h2 className="section__title" style={{ textAlign: 'centre', marginBottom: '1rem' }}>
+                The Future of Automated Retail
               </h2>
               <p className="about__intro">
-                Founded in 2020, SmarVe has grown from a two-person startup into
-                the industry's most trusted smart vending platform. We combine
-                cutting-edge hardware with cloud-based software to give operators
-                complete control of their retail fleet — anywhere, anytime.
+                Founded by a small, driven team, SmarVe has grown from a simple idea into a functional
+                smart vending solution deployed at the African Leadership College of Higher Education in Mauritius,
+                We combine Android-based hardware with smart, cloud-enabled software and reverse vending,
+                enabling bottle collection, validation, and recycling rewards, while giving operators real-time visibility and control to make everyday retail more efficient, sustainable, and accessible.
               </p>
             </div>
 

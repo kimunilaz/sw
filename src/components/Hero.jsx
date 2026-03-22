@@ -105,7 +105,7 @@ export default function Hero() {
               Aspect ratio: ~3:4 (portrait).
             */}
             <img
-              src="https://drive.google.com/uc?export=view&id=1NFBw68rMs7VhTiwAtsVRlpOlaHWuL2-u=w1000"
+              src="/images/briansticking.jpeg"
               alt="SmarVe intelligent vending machine"
               className="hero__image"
               loading="eager"

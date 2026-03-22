@@ -9,37 +9,37 @@ const PRODUCTS = [
      * REPLACE IMAGE: A photo of the SV-100 snack/drink vending machine.
      * Recommended: well-lit product shot, portrait or 4:3 landscape.
      */
-    image: 'https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=500&q=80',
-    badge: 'Best Seller',
+    image: '/images/front.JPG',
+    badge: 'Best Experience',
     badgeColor: 'green',
-    name: 'SV-100 Smart Snack Hub',
+    name: 'Smart Product Selection',
     description:
       'A compact, wall-mountable unit perfect for office spaces and small venues. Features contactless payment and live stock tracking.',
-    features: ['Contactless NFC/QR', '150-item capacity', 'Cloud dashboard'],
+    features: ['Contactless Benefits', 'Soft Touch Screen', 'Cloud Dashboard Display'],
   },
   {
     /*
      * REPLACE IMAGE: A photo of the SV-300 beverage tower.
      */
-    image: 'https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=500&q=80',
-    badge: 'Enterprise',
+    image: 'images/reverse.jpg',
+    badge: 'Coming Soon',
     badgeColor: 'navy',
-    name: 'SV-300 Beverage Tower',
+    name: 'Reverse Vending',
     description:
-      'High-capacity chilled beverage dispenser engineered for high-traffic environments including transit hubs and sports arenas.',
-    features: ['Temperature zones', '300-can capacity', 'Dynamic pricing'],
+      'Smart reverse vending unit designed for efficient bottle and can collection in high-traffic environments such as campuses and public spaces.',
+    features: ['Barcode/QR scanning', 'Instant reward codes', 'Real-time validation'],
   },
   {
     /*
      * REPLACE IMAGE: A photo of the SV-X1 modular micro-market kiosk.
      */
-    image: 'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=500&q=80',
+    image: '/images/happycustomers3.jpeg',
     badge: 'New',
     badgeColor: 'blue',
-    name: 'SV-X1 Micro Market',
+    name: 'Cashless Payment',
     description:
-      'A fully unattended micro-store experience with open shelving, a smart checkout kiosk, and age-verification technology.',
-    features: ['Open shelving', 'AI checkout', 'Age verification'],
+      'Seamless cashless payment system enabling fast, secure transactions through digital methods in unattended vending environments.',
+    features: ['QR code payments', 'Mobile money integration', 'Real-time transaction processing'],
   },
 ]
 
