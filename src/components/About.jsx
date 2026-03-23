@@ -54,8 +54,8 @@ export default function About() {
             <div className="about__chip">
               <span className="about__chip-icon">🏆</span>
               <div>
-                <div className="about__chip-title">Award Winning</div>
-                <div className="about__chip-sub">Best Smart Retail Tech 2025</div>
+                <div className="about__chip-title">Digitalisation</div>
+                <div className="about__chip-sub">Smart Retail in Mauritius</div>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function About() {
             <div className="reveal">
               <span className="section__eyebrow">Who We Are</span>
               <h2 className="section__title" style={{ textAlign: 'centre', marginBottom: '1rem' }}>
-                The Future of Automated Retail
+                Automated Retail
               </h2>
               <p className="about__intro">
                 Founded by a small, driven team, SmarVe has grown from a simple idea into a functional

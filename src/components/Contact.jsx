@@ -52,7 +52,7 @@ const INFO_ITEMS = [
     ),
     label: 'Address',
     /* REPLACE: Update with real office address */
-    value: '14 Innovation Drive, Suite 800\nPort Louis, Mauritius 11328',
+    value: 'PowderMil Rd, Pamplemousses 21001, Mauritius',
   },
   {
     icon: (
@@ -62,7 +62,7 @@ const INFO_ITEMS = [
     ),
     label: 'Phone',
     /* REPLACE: Update with real phone number */
-    value: '+230 5801 2345',
+    value: '+230 5519 8537',
   },
   {
     icon: (
@@ -73,7 +73,7 @@ const INFO_ITEMS = [
     ),
     label: 'Email',
     /* REPLACE: Update with real email */
-    value: 'hello@smarve.io',
+    value: 'k.zhakata@smarve-mu.com',
   },
 ]
 
@@ -99,7 +99,7 @@ export default function Contact() {
           <span className="section__eyebrow">Get In Touch</span>
           <h2 className="section__title">Let's Start a Conversation</h2>
           <p className="section__subtitle">
-            Ready to transform your retail locations? Our team is here to help
+            Ready to transform your busy locations? Our team is here to help
             you find the perfect SmarVe solution.
           </p>
         </div>
@@ -138,8 +138,8 @@ export default function Contact() {
                   <line x1="2" y1="20" x2="10" y2="20" stroke="var(--green)" strokeWidth="1.5"/>
                   <line x1="30" y1="20" x2="38" y2="20" stroke="var(--green)" strokeWidth="1.5"/>
                 </svg>
-                <p>Map Placeholder</p>
-                <span>Replace with Google Maps embed</span>
+                <p>Map</p>
+                <span>Google</span>
               </div>
             </div>
 

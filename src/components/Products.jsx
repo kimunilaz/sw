@@ -48,8 +48,8 @@ export default function Products() {
     <section className="section products" id="products">
       <div className="container">
         <div className="section__header reveal">
-          <span className="section__eyebrow">Our Products</span>
-          <h2 className="section__title">Machines Built Differently</h2>
+          <span className="section__eyebrow">Our Product</span>
+          <h2 className="section__title">Machine Built for Convenience</h2>
           <p className="section__subtitle">
             Each SmarVe unit is engineered for reliability, speed, and the
             best-in-class buying experience — from first tap to final purchase.

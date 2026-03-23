@@ -14,9 +14,9 @@ const SERVICES = [
         <path d="M19 21l1 1 2-2" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
       </svg>
     ),
-    title: 'Smart Vending Machines',
+    title: 'Smart Snack Retail',
     description:
-      'IoT-enabled machines with touchscreen interfaces, cashless payments, and real-time remote monitoring for operators of any scale.',
+      'Android-based smart vending machines with seamless payments and real-time monitoring, designed to deliver convenient, reliable snack access in everyday environments.',
     color: '#22C55E',
   },
   {
@@ -27,9 +27,9 @@ const SERVICES = [
         <circle cx="14" cy="14" r="2" fill="currentColor"/>
       </svg>
     ),
-    title: 'Automated Retail Solutions',
+    title: 'Bottle & Can Cycling',
     description:
-      'End-to-end micro-market and unattended retail setups tailored for offices, gyms, hospitals, and transit hubs.',
+      'Reverse vending system that collects and validates bottles and cans, rewarding users while supporting clean, convenient recycling in everyday spaces.',
     color: '#0EA5E9',
   },
   {
@@ -41,9 +41,9 @@ const SERVICES = [
         <path d="M5 10l6-4 6 5 6-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
-    title: 'Inventory & Analytics',
+    title: 'Data Traceability',
     description:
-      'Predictive restocking, sales heatmaps, revenue dashboards, and custom reports — all accessible from a single cloud platform.',
+      'End-to-end tracking of transactions, product flow, and recycling activity, enabling transparent data collection for analysis, reporting, and research insights.',
     color: '#8B5CF6',
   },
   {
@@ -55,9 +55,9 @@ const SERVICES = [
         <path d="M20 4l4 2v4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" opacity="0.5"/>
       </svg>
     ),
-    title: 'Maintenance & Support',
+    title: 'Digitalisation',
     description:
-      '24/7 remote diagnostics, certified field technicians, and guaranteed SLA response times to keep your fleet running perfectly.',
+      'Driving adoption of smart technology and automated systems.',
     color: '#F59E0B',
   },
 ]
@@ -68,10 +68,10 @@ export default function Services() {
       <div className="container">
         <div className="section__header reveal">
           <span className="section__eyebrow">What We Offer</span>
-          <h2 className="section__title">Services Built for Scale</h2>
+          <h2 className="section__title">Convenience Customer Services</h2>
           <p className="section__subtitle">
-            From single-machine operators to enterprise fleets, our platform
-            adapts to every use case with precision and reliability.
+            Recently launched and looking forward to
+            adapt to every use case with precision and reliability.
           </p>
         </div>
 

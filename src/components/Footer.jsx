@@ -80,7 +80,7 @@ export default function Footer() {
           <div className="footer__cta-text">
             <h3 className="footer__cta-title">Ready to go smart?</h3>
             <p className="footer__cta-sub">
-              Join 1,200+ operators already running on SmarVe.
+              Join us to promote Recycling and Tech in Mauritius.
             </p>
           </div>
           <div className="footer__cta-actions">
@@ -123,7 +123,7 @@ export default function Footer() {
 
             <p className="footer__brand-desc">
               SmarVe transforms traditional vending machines into connected,
-              intelligent retail systems — making automated commerce smarter,
+              intelligent retail systems, making automated commerce smarter,
               faster, and more profitable for operators worldwide.
             </p>
 

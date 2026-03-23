@@ -11,30 +11,30 @@ import './Testimonials.css'
 const TESTIMONIALS = [
   {
     id: 1,
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80',
-    name: 'Marcus Johnson',
-    role: 'Facilities Director',
-    company: 'TechPark Offices',
+    avatar: '/images/tineyi.jpg',
+    name: 'Tineyi Madungwe',
+    role: 'Entreprenuership Facilitator',
+    company: 'ALCHE',
     rating: 5,
-    text: "SmarVe completely transformed how we manage our office pantry. Real-time inventory alerts mean we've never run out of stock during peak hours. The analytics dashboard alone saved us 20% on overstock waste within the first quarter.",
+    text: "As a staff member, I really appreciate SmarVe. The machine is always ready, stocked, and easy to use. It saves us time and keeps students happy. We are very happy to have this machine here on campus and we thank these young entreprenuers for this amazing work",
   },
   {
     id: 2,
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&q=80',
-    name: 'Priya Sharma',
-    role: 'Operations Manager',
-    company: 'CityTrans Hub',
+    avatar: '/images/ikuzwe.jpg',
+    name: 'Kevin Ikuzwe',
+    role: 'Student',
+    company: 'ALCHE',
     rating: 5,
-    text: "We deployed 12 SV-300 Beverage Towers across our transit stations and the results have been incredible. Uptime is near-perfect, the cashless payment system is seamless, and our revenue per machine increased by 34% year-over-year.",
+    text: "SmarVe machine is amazing! I can grab a snack or a cold drink anytime between lectures without wasting time waiting. It’s so convenient.",
   },
   {
     id: 3,
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&q=80',
-    name: 'Daniel Osei',
-    role: 'VP of Retail Innovation',
-    company: 'HealthFirst Clinics',
+    avatar: '/images/sylvie.jpg',
+    name: 'Syvie',
+    role: 'Student',
+    company: 'ALCHE',
     rating: 5,
-    text: "The SV-X1 Micro Market in our hospital lobbies has been a game-changer for staff and visitors alike. The age-verification feature and healthy product categorization perfectly aligned with our wellness brand. Support team is world-class.",
+    text: "I love how SmarVe makes campus life simple. I don’t have to carry cash or worry about the machine being empty — everything is quick and smooth.",
   },
 ]
 
@@ -53,10 +53,10 @@ export default function Testimonials() {
       <div className="container">
         <div className="section__header reveal">
           <span className="section__eyebrow">Customer Stories</span>
-          <h2 className="section__title">Trusted by Industry Leaders</h2>
+          <h2 className="section__title">Trusted by Customers We Serve</h2>
           <p className="section__subtitle">
-            Don't just take our word for it — here's what operators running
-            SmarVe fleets have to say.
+            Don't just take our word for it, here's what customers
+            have to say.
           </p>
         </div>
 
@@ -127,13 +127,13 @@ export default function Testimonials() {
           </div>
           <div className="testimonials__trust-divider" />
           <div className="testimonials__trust-item">
-            <span className="testimonials__trust-number">1,200+</span>
-            <span className="testimonials__trust-label">Happy Operators</span>
+            <span className="testimonials__trust-number">200+</span>
+            <span className="testimonials__trust-label">Happy Customer</span>
           </div>
           <div className="testimonials__trust-divider" />
           <div className="testimonials__trust-item">
             <span className="testimonials__trust-number">98%</span>
-            <span className="testimonials__trust-label">Renewal Rate</span>
+            <span className="testimonials__trust-label">Accuracy</span>
           </div>
         </div>
       </div>

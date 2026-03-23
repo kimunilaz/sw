@@ -22,18 +22,17 @@ export default function Hero() {
         <div className="hero__content">
           <div className="hero__badge">
             <span className="hero__badge-dot" />
-            Next-Gen Retail Technology
+            The Future of Automated Retail
           </div>
 
           <h1 className="hero__headline">
-            Smart Retail &<br />
-            <span className="hero__headline-accent">Vending Solutions</span>
+            Smart
+            <span className="hero__headline-accent">Vending</span>
           </h1>
 
           <p className="hero__subheadline">
             SmarVe is transforming vending machines into intelligent retail
-            systems — powered by real-time data, seamless payments, and
-            AI-driven inventory management.
+            systems, powered by real-time data and AI
           </p>
 
           <div className="hero__cta-group">
@@ -61,18 +60,18 @@ export default function Hero() {
           {/* Stats row */}
           <div className="hero__stats">
             <div className="hero__stat">
-              <span className="hero__stat-number">500+</span>
-              <span className="hero__stat-label">Machines Deployed</span>
+              <span className="hero__stat-number">1st</span>
+              <span className="hero__stat-label">Machine Deployed</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-number">99.9%</span>
-              <span className="hero__stat-label">Uptime Guarantee</span>
+              <span className="hero__stat-number">24hr</span>
+              <span className="hero__stat-label">Operation</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-number">30+</span>
-              <span className="hero__stat-label">Cities Covered</span>
+              <span className="hero__stat-number">200+</span>
+              <span className="hero__stat-label">Customers</span>
             </div>
           </div>
         </div>
