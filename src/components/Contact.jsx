@@ -189,7 +189,7 @@ export default function Contact() {
                     name="email"
                     type="email"
                     className="contact__input"
-                    placeholder="you@company.com"
+                    placeholder="k.zhakata@smarve-mu.com"
                     value={form.email}
                     onChange={handleChange}
                     required
